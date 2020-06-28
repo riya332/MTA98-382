@@ -1,0 +1,23 @@
+// Question : What will be the types of following ?
+1. var score = 98.9;
+2. var roll = 332;
+3. var name = "Riya"
+4. var section = typeof(score);
+5. var identifier = name + roll;
+6. var pass = true;
+7. var arr = [1,2,3]
+8. var address = null;
+9. var person = {name: name, rollnum: roll, marks: score};
+
+
+1. number
+2. number
+3. string
+4. string, Because "typeof" returns string.
+5. string
+6. boolean
+7. object //there is no array type in js
+8. object
+9. object
+
+
