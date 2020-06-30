@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+    <h2>HTML Forms Target</h2>
+
+    <h5> Target Blank </h5>
+    <form action="/action_page.php" method="post" target="_blank">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>New browser tab will be opened on submit.</p>
+
+    <h5> Target Self </h5>
+    <form action="/action_page.php" method="post" target="_self">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Submitted on same tab. It is the default value</p>  
+
+</body>
+
+</html>
